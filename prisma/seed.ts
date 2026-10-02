@@ -1139,7 +1139,7 @@ const questions = [
   reviewNote: "Na arkuszu zaznaczona jest odpowiedź D.",
 },
 {
-  questionKey: "S6-Q00",
+  questionKey: "S6-Q0",
   text: "Podściółka tłuszczowa człowieka jest rodzajem tkanki:",
   options: [
     "nabłonkowej",
@@ -1154,7 +1154,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q01",
+  questionKey: "S6-Q1",
   text: "Prawdą jest, że tkanka łączna:",
   options: [
     "jest najmniej zróżnicowaną spośród wszystkich tkanek człowieka",
@@ -1169,7 +1169,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q02",
+  questionKey: "S6-Q2",
   text: "Najważniejszą cechą tych włókien jest ogromna odporność na rozrywanie, stąd występują m.in. w ścięgnach, kościach i chrząstkach. Mowa jest o włóknach:",
   options: [
     "kolagenowych",
@@ -1184,7 +1184,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q03",
+  questionKey: "S6-Q3",
   text: "Do tkanki łącznej właściwej nie należy tkanka:",
   options: [
     "wiotka",
@@ -1199,7 +1199,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q04",
+  questionKey: "S6-Q4",
   text: "Ścięgna i więzadła są utworzone z tkanki:",
   options: [
     "chrzęstnej szklistej",
@@ -1214,7 +1214,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q05",
+  questionKey: "S6-Q5",
   text: "Komórki chrzęstne to inaczej:",
   options: [
     "chondrocyty",
@@ -1229,7 +1229,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q06",
+  questionKey: "S6-Q6",
   text: "Tkanka kostna należy do tkanki:",
   options: [
     "łącznej oporowej",
@@ -1244,7 +1244,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q07",
+  questionKey: "S6-Q7",
   text: "Jaki typ chrząstki buduje powierzchnie stawowe oraz chrzęstne części nosa, nagłośni i oskrzeli?",
   options: [
     "chrząstka sprężysta",
@@ -1259,7 +1259,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q08",
+  questionKey: "S6-Q8",
   text: "Nieprawdą jest, że:",
   options: [
     "limfa pełni funkcje odpornościowe",
@@ -1274,7 +1274,7 @@ const questions = [
 },
 
 {
-  questionKey: "S6-Q09",
+  questionKey: "S6-Q9",
   text: "Poniższe rysunki przedstawiają różne rodzaje tkanki łącznej podporowej. Poprawną kolejność podpisów podaje zestaw:",
   options: [
     "1 - tkanka kostna zbita, 2 - tkanka chrzęstna, 3 - tkanka kostna gąbczasta",
