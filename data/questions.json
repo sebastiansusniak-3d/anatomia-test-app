@@ -1,0 +1,138 @@
+[
+  {
+    "key": "set6-q0",
+    "sets": [6],
+    "text": "Naskórek ludzki jest zbudowany z:",
+    "options": [
+      "jednowarstwowego nabłonka płaskiego nierogowaciejącego",
+      "jednowarstwowego nabłonka płaskiego rogowaciejącego",
+      "wielowarstwowego nabłonka płaskiego nierogowaciejącego",
+      "wielowarstwowego nabłonka płaskiego rogowaciejącego"
+    ],
+    "correct": 3
+  },
+  {
+    "key": "set6-q1",
+    "sets": [6],
+    "text": "W jamie nosowej, krtani, tchawicy i oskrzelach występuje nabłonek:",
+    "options": ["jednowarstwowy płaski", "jednowarstwowy walcowaty", "wielowarstwowy płaski", "pseudowielowarstwowy"],
+    "correct": 3
+  },
+  {
+    "key": "set6-q2",
+    "sets": [6],
+    "text": "W jelicie cienkim człowieka występuje nabłonek:",
+    "options": ["wielowarstwowy walcowaty", "jednowarstwowy płaski", "wielowarstwowy płaski", "jednowarstwowy sześcienny"],
+    "correct": 0
+  },
+  {
+    "key": "set6-q3",
+    "sets": [6],
+    "text": "Komórka nerwowa nosi nazwę:",
+    "options": ["neuronu", "neurytu", "neurogleju", "neurylemma"],
+    "correct": 0
+  },
+  {
+    "key": "set6-q4",
+    "sets": [6],
+    "text": "Komórki Schwanna to inaczej:",
+    "options": ["lemocyty", "neurocyty", "miocyty", "neurony"],
+    "correct": 0
+  },
+  {
+    "key": "set6-q5",
+    "sets": [6],
+    "text": "Wypustka doprowadzająca impulsy do ciała komórki nerwowej to:",
+    "options": ["akson", "neuron", "dendryt", "neuryt"],
+    "correct": 2
+  },
+  {
+    "key": "set6-q6",
+    "sets": [6],
+    "text": "Wybierz prawidłowe stwierdzenie:",
+    "options": [
+      "włókna bezrdzenne pozbawione są jakiejkolwiek osłonki",
+      "włókna rdzenne przewodzą ze znacznie większą szybkością niż włókna bezrdzenne",
+      "we włóknach bezrdzennych występuje skokowy typ przewodzenia",
+      "mielina tworzy ciągłą osłonkę owijając się wokół aksonów"
+    ],
+    "correct": 1
+  },
+  {
+    "key": "set6-q7",
+    "sets": [6],
+    "text": "Na schemacie cyframi 1, 2, 3 oznaczono:",
+    "options": [
+      "1: perikarion; 2: neuryt; 3: dendryty",
+      "1: perikarion; 2: dendryty; 3: neuron",
+      "1: ciało komórki; 2: perikarion; 3: neuron",
+      "1: perikarion; 2: dendryty; 3: neuryt"
+    ],
+    "correct": 3,
+    "images": [{"path": "/question-images/set6-neuron.png", "alt": "Schemat neuronu z oznaczeniami 1–6"}]
+  },
+  {
+    "key": "set6-q8",
+    "sets": [6],
+    "text": "Nieprawdą jest, że:",
+    "options": [
+      "synapsy występują wyłącznie na styku komórek nerwowych",
+      "miejsce styku dwóch komórek nerwowych",
+      "zapewniają ciągłość czynnościową w układzie nerwowym",
+      "umożliwiają przekazywanie impulsu nerwowego"
+    ],
+    "correct": 0
+  },
+  {
+    "key": "set6-q9",
+    "sets": [6],
+    "text": "Na schemacie cyframi oznaczono:",
+    "options": [
+      "1: błona postsynaptyczna; 2: błona presynaptyczna; 3: pęcherzyki z mediatorem; 5: receptory białkowe",
+      "1: błona presynaptyczna; 2: błona postsynaptyczna; 3: receptory białkowe; 5: pęcherzyki z mediatorem",
+      "1: błona postsynaptyczna; 2: błona presynaptyczna; 3: receptory białkowe; 5: pęcherzyki z mediatorem",
+      "1: błona presynaptyczna; 2: błona postsynaptyczna; 3: szczelina synaptyczna; 5: pęcherzyki z mediatorem"
+    ],
+    "correct": 1,
+    "images": [{"path": "/question-images/set6-synapse.png", "alt": "Schemat synapsy"}]
+  },
+  {
+    "key": "set6-q10",
+    "sets": [6],
+    "text": "Przedstawiony typ nabłonka występuje w:",
+    "options": ["jelicie cienkim", "pęcherzykach płucnych", "kanalikach nerkowych", "drogach oddechowych"],
+    "correct": 1,
+    "images": [{"path": "/question-images/set6-epithelium.png", "alt": "Schemat nabłonka jednowarstwowego płaskiego"}]
+  },
+  {
+    "key": "set6-q11",
+    "sets": [6],
+    "text": "Zadaniem komórek glejowych jest:",
+    "options": [
+      "przewodzenie impulsów nerwowych",
+      "ochrona komórek nerwowych",
+      "odżywianie komórek nerwowych",
+      "ochrona komórek nerwowych i odżywianie komórek nerwowych"
+    ],
+    "correct": 3
+  },
+  {
+    "key": "set6-q13",
+    "sets": [6],
+    "text": "Nauka o budowie i rozmieszczeniu tkanek to:",
+    "options": ["serologia", "histologia", "neurologia", "patologia"],
+    "correct": 1
+  },
+  {
+    "key": "set6-q14",
+    "sets": [6],
+    "text": "Ciałka Nissla (tigroidy) to:",
+    "options": [
+      "ciałka zmysłowe występujące w skórze",
+      "ciałka zmysłowe występujące w dendrytach i aksonie",
+      "ciałka zawierające DNA i rybosomy, występujące w perykaryonie",
+      "ciałka zawierające DNA, występują w komórkach nabłonkowych"
+    ],
+    "correct": 2
+  }
+]

@@ -1,0 +1,99 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl  = env("SHADOW_DATABASE_URL")
+}
+
+model TestSet {
+  id        Int           @id @default(autoincrement())
+  number    Int           @unique
+  name      String
+  questions QuestionSet[]
+  createdAt DateTime      @default(now())
+}
+
+model Question {
+  id             Int              @id @default(autoincrement())
+  questionKey    String           @unique
+  text           String
+  options        Json
+  correct        Json
+  questionType   String           @default("single_choice")
+  reviewStatus   String           @default("needs_review")
+  reviewNote     String?
+  sets           QuestionSet[]
+  images         QuestionImage[]
+  attemptAnswers AttemptAnswer[]
+  createdAt      DateTime         @default(now())
+
+  @@index([text])
+}
+
+model QuestionSet {
+  questionId Int
+  setId      Int
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  set        TestSet  @relation(fields: [setId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, setId])
+  @@index([setId])
+}
+
+model QuestionImage {
+  questionId Int
+  imageId    Int
+  sortOrder  Int      @default(0)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  image      Image    @relation(fields: [imageId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, imageId])
+  @@index([imageId])
+}
+
+model Image {
+  id        Int              @id @default(autoincrement())
+  path      String           @unique
+  alt       String?
+  questions QuestionImage[]
+  createdAt DateTime         @default(now())
+}
+
+model Attempt {
+  id         Int            @id @default(autoincrement())
+  nickname   String
+  testNumber Int
+  score      Int
+  total      Int
+  percentage Float
+  createdAt  DateTime       @default(now())
+  answers    AttemptAnswer[]
+}
+
+model AttemptAnswer {
+  id             Int      @id @default(autoincrement())
+
+  attemptId      Int
+  questionId     Int
+
+  // Kopia pytania i odpowiedzi z momentu wykonania testu
+  questionText   String
+  options        Json
+
+  // Odpowiedzi zapisujemy jako indeks: A=0, B=1, C=2, D=3
+  selectedAnswer Int
+  correctAnswer  Int
+
+  isCorrect      Boolean
+  points         Int
+
+  attempt        Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question       Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+  @@index([questionId])
+}
